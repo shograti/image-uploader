@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+main {
+  height: 100vh;
+  width: 100%;
+  background-color: #F6F8FB;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  height: 469px;
+  width: 402px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding:1em 0em;
+}
+
+.form__title {
+  font-size: 18px;
+  font-weight: 500;
+  color: #4F4F4F;
+  text-align: center;
+}
+
+.form__subtitle {
+  font-size: 10px;
+  color: #828282;
+  text-align: center;
+}
+
+
+.drag-and-drop__uploader {
+  height: 218.9px;
+  width: 338px;
+  background-color: #e7eaee5b;
+  z-index:2;
+  border: 1px #97BEF4 dashed;
+  border-radius: 12px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap:2em;
+}
+
+.drag-and-drop__text{
+  font-size: 12px;
+  color: #BDBDBD;
+}
+
+.option__text{
+  font-size:12px;
+  color: #BDBDBD;
+}
+
+#uploader__input{
+  display:none
+}
+
+.uploader__button{
+  background-color: #2F80ED;
+  color:#FFF;
+  font-size:12px;
+  border-radius:8px;
+  padding:0.5em 1em;
+  cursor:pointer;
+}
+
+.error-message{
+  text-align: center;
+  color: rgb(241, 26, 26);
+  font-size:14px;
+}
